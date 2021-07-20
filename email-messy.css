@@ -1,0 +1,120 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+}
+
+.folders {
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 44, 26);
+}
+.btn-warning {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  min-block-size: 10px;
+  min-width: 40px;
+}
+.messages {
+  background-color: rgb(223, 220, 211);
+}
+.search {
+  width: 100% !important;
+}
+#linef {
+  width: 100% !important;
+}
+.Linked-container {
+  margin: 20px;
+}
+.Quotes-container {
+  max-height: 50%;
+  margin: 20px;
+}
+.Software-container {
+  margin: 20px;
+}
+.sender {
+  float: left;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  /* padding-top: 40px; */
+}
+.time {
+  float: right;
+  font-size: 12px;
+  position: relative;
+  /* padding-top: 10px; */
+  /* padding-left: 70%; */
+  color: gray
+}
+.request {
+  font-size: 12px;
+  color: gray
+}
+.compose {
+  height: inherit;
+}
+#icon {
+  z-index: 2;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#circle {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.main-message {
+
+}
+h6 {
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+}
+h5 {
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: gray;
+}
+h4 {
+  margin-left: 50px;
+}
+#reply-box{
+  position: relative;
+  resize: none;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: transparent;
+  border-style: none;
+  border-color: gray;
+  outline: none;
+}
+#reply-window{
+  width: 90% !important;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0.5em;
+  padding: 1em;
+  float: inline-end;
+}
+.btn-outline-warning {
+  font-weight: bold;
+  outline-width: 10px;
+}
+.nav-item {
+  font-weight: bold;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+  margin-right: 10px;
+}

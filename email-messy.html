@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Email Template</title>
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="./bootstrap.min.css" media="screen">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" type="text/css" href="email-messy.css"
+
+  </head>
+  <body>   
+    <div class="container-fluid" style="height: 100%;">
+      <div class="row" style="height: 100%;">
+        <div class="col-12 col-md-2 folders d-flex flex-column justify-content-start">
+        <!--Folders box--> 
+          
+          <!--Icon--> 
+          <span>
+            <i class="bi bi-image"></i>
+            Welcome, Brock!
+          </span>
+          <!--Compose Button-->
+          <button type="button" class="btn btn-warning">Compose</button>
+          <!--Start Nav Bar-->
+          <nav class="navbar navbar-dark fixed-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Inbox (1)</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Tagged</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Important</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sent Mail</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Drafts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Trash</a>
+              </li>
+            </ul>
+          </nav>
+          <!--End Nav Bar-->
+        </div>
+        <div class="col-12 col-md-3 messages d-flex flex-column">
+          <!--Search-->
+          <nav class="navbar navbar-light search">
+            <form id="linef" class="form-inline">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                </div>
+                <input id="stext" type="text" class="form-control" placeholder="Search for emails" aria-label="Search" aria-describedby="basic-addon1">
+              </div>
+            </form>
+          </nav>
+          <!--Inbox-->
+          <div class="inbox">
+            <div class="align-content-flex-start">
+              <div class="Linked-container row">
+                <div class="sender col-6">LinkedIn</div>
+                <div class="time col-6">02:45pm</div>
+                <div class="request col-12">You have a new connection request.</div>
+              </div>
+              <div class="Quotes-container  shadow p-3 mb-5 bg-white rounded row">
+                <div class="sender col-6">Michael Scott Daily Quotes</div>
+                <div class="time col-6">Jul 3, 2020</div>
+                <div class="request col-12">I'm optimistic because everyday I get a little more desp...</div>
+              </div>
+              <div class="Software-container row">
+                <div class="sender col-6">LeMar Software</div>
+                <div class="time col-6">Feb 9, 2020</div>
+                <div class="request col-12">Learn how you can give us money by calling (209) 322 7...</div> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-7 compose d-flex flex-column justify-content-start align-items-center">
+          <!--Emails-->
+          <div class="main-message">
+            <div class="trash-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-trash" viewBox="0 0 16 16">
+              <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+              <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-three-dots" viewBox="0 0 16 16">
+              <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+            </svg>
+            </svg></div>
+            <h6>To: taylor@lamarsoftware.io</h6>
+            <h6>From: re-reply@theofficenbc.com</h6>
+            <br>
+            <h4>Michael Scott Daily Quotes</h4>
+            <br>
+            <h5>"Friends joke with one another. 'Hey, you're poor.' 'Hey, your momma's dead.' That's what friends do."</h5>
+            <br>
+            <h5>"It's a good thing Russia doesn't exist anymore."</h5>
+            <br>
+            <h5>"You cheated on me? When I specifically asked you not to?"</h5>
+            <br>
+            <h5>"It just seems awfully mean. But sometimes, the ends justify the mean."</h5>
+            <br>
+            <h5>"Reverse psychology is an awesome tool. I don't know if you guys know about it, but, basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."</h5>
+        </div>
+        <br>
+          <!--Email Composition box-->
+          <div id="reply-window" class="d-flex flex-column">
+            <textarea name="reply-box" id="reply-box" cols="30" rows="10"></textarea>
+              <div class="d-flex flex-row justify-content-between align-items-end">
+                <i class="bi bi-paperclip" style="font-size: 20px;"></i>
+                <button id="reply-but" class="btn btn-outline-warning">
+                    REPLY
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./bootstrap.min.js"></script>
+  </body>
+</html>
